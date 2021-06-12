@@ -1,0 +1,17 @@
+const Cita = ({cita: {mascota, propietario, fecha, hora, sintomas, id},eliminarCita}) => {
+    return ( 
+        <div className="cita">
+            <p>Mascota: <span>{mascota}</span></p>
+            <p>Propietario: <span>{propietario}</span></p>
+            <p>Fecha: <span>{fecha}</span></p>
+            <p>Hora: <span>{hora}</span></p>
+            <p>Síntomas: <span>{sintomas}</span></p>
+            <button 
+            onClick={() => eliminarCita(id)} 
+            className="button eliminar u-full-width"
+            >Eliminar &times;</button>
+        </div>
+    );
+}
+ 
+export default Cita;
