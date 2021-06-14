@@ -1,39 +1,51 @@
 html {
   min-height: 100%;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: linear-gradient(-225deg, rgb(53, 52, 52) 0%, rgb(11, 12, 24) 52%, rgb(37, 37, 37) 100%);
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   min-height: 100%;
   padding-bottom: 5rem;
   color: white;
 }
-h1, h2  {
-  color: white;
+
+h1,
+h2 {
+  color: #FFB75E;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
   padding: 3rem 0;
   text-align: center;
-
   text-transform: uppercase;
-
   font-family: 'Staatliches', cursive;
   letter-spacing: 1px;
 }
+
 .lista-citas .media {
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 3rem;
 }
 
-.lista-citas .media:last-of-type{
+.lista-citas .media:last-of-type {
   border-bottom: 0;
 }
+
 .lista-citas .media-body p {
-  margin:0;
+  margin: 0;
 }
+
 .lista-citas .media-body button {
-  margin-top: 1rem!important;
+  margin-top: 1rem !important;
 }
+
 .lista-citas .media-body span {
   font-weight: bold;
 }
@@ -45,12 +57,12 @@ label {
 input[type="date"],
 input[type="time"] {
   height: 38px;
-    padding: 6px 10px;
-    background-color: #fff;
-    border: 1px solid #D1D1D1;
-    border-radius: 4px;
-    box-shadow: none;
-    box-sizing: border-box;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
 }
 
 .cita {
@@ -64,18 +76,22 @@ input[type="time"] {
   font-weight: bold;
   margin-bottom: .8rem;
 }
+
 .cita p span {
   font-weight: normal;
 
 }
+
 .cita:first-of-type {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
+
 .cita:last-of-type {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+
 .button.eliminar,
 .button.eliminar:hover {
   background-color: #c10059;
@@ -90,8 +106,8 @@ input[type="time"] {
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
-  font-family:  'Staatliches', cursive;
-} 
+  font-family: 'Staatliches', cursive;
+}
 
 .alerta-enviado {
   background-color: white;
@@ -100,5 +116,5 @@ input[type="time"] {
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
-  font-family:  'Staatliches', cursive;
-} 
+  font-family: 'Staatliches', cursive;
+}
