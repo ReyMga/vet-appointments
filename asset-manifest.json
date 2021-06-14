@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vet-appointments/static/css/main.2cb17e5f.chunk.css",
+    "main.css": "/vet-appointments/static/css/main.e42e68c2.chunk.css",
     "main.js": "/vet-appointments/static/js/main.74c4f403.chunk.js",
     "main.js.map": "/vet-appointments/static/js/main.74c4f403.chunk.js.map",
     "runtime-main.js": "/vet-appointments/static/js/runtime-main.e89d0eb9.js",
@@ -10,13 +10,13 @@
     "static/js/3.7ae9d6c9.chunk.js": "/vet-appointments/static/js/3.7ae9d6c9.chunk.js",
     "static/js/3.7ae9d6c9.chunk.js.map": "/vet-appointments/static/js/3.7ae9d6c9.chunk.js.map",
     "index.html": "/vet-appointments/index.html",
-    "static/css/main.2cb17e5f.chunk.css.map": "/vet-appointments/static/css/main.2cb17e5f.chunk.css.map",
+    "static/css/main.e42e68c2.chunk.css.map": "/vet-appointments/static/css/main.e42e68c2.chunk.css.map",
     "static/js/2.0e0527d7.chunk.js.LICENSE.txt": "/vet-appointments/static/js/2.0e0527d7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e89d0eb9.js",
     "static/js/2.0e0527d7.chunk.js",
-    "static/css/main.2cb17e5f.chunk.css",
+    "static/css/main.e42e68c2.chunk.css",
     "static/js/main.74c4f403.chunk.js"
   ]
 }
